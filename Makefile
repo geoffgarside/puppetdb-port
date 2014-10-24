@@ -35,6 +35,8 @@ GROUPS=		puppetdb
 SUB_LIST=	JAVA_HOME=${JAVA_HOME}
 SUB_FILES=	pkg-message
 
+PKGMESSAGE=	${WRKDIR}/pkg-message
+
 .include <bsd.port.pre.mk>
 
 post-patch:
